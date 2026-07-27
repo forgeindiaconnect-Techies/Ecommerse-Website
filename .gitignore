@@ -1,0 +1,27 @@
+# Ignore all node_modules everywhere
+**/node_modules/
+node_modules/
+
+# Ignore all build outputs
+**/dist/
+dist/
+**/build/
+build/
+webapp/dist/
+webapp/node_modules/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment files
+.env*
+!.env.example
+
+# Vercel and build system files
+.vercel
+.npm
+.cache
